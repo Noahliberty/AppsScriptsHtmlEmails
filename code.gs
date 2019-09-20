@@ -29,7 +29,7 @@ for(i = 1; i <= rowLength.length; i++) {
   
    MailApp.sendEmail({
     to: prospect.email,
-    subject: "Your Google Cloud Platform Trial",
+    subject: "Your email subject goes here",
     htmlBody: message
   }); 
   
